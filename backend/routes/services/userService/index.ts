@@ -32,7 +32,6 @@ export const getUserById = async (reqId: number) => {
         id: reqId,
       },
     });
-
     return user;
   } catch (error) {
     throw new Error("User not found");
